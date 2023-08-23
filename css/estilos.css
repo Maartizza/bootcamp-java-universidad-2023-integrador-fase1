@@ -1,0 +1,406 @@
+@media screen and (min-width:0px) {
+    .logogc-navbar-brand  {
+        width: 75px !important;
+        height: auto !important;
+    }
+}
+.floating { 	
+	animation-name: floating; 
+	animation-duration: 7s; 
+	animation-iteration-count: infinite; 
+	animation-timing-function: ease-in-out; 
+	margin-left: 30px; 
+	margin-top: 5px; 
+} 
+@keyframes floating { 
+	0% { transform: translate(0, 0px); } 
+	50% { transform: translate(0, 20px); } 
+	100% { transform: translate(0, -0px); }	 
+}
+@media (max-width: 575.98px) { 
+    #textoajustado {
+        font-size: 15px;
+      }
+    .img-portada {
+        background-image: url(../assets/portada.jpg);
+        height: 200px;
+        width: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    } 
+    .img-portadaActv {
+        background-image: url(../assets/portadaActv.jpg);
+        height: 200px;
+        width: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+    .img-portadaProy {
+        background-image: url(../assets/portadaProy.jpg);
+        height: 200px;
+        width: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    } 
+    .img-portadaQS {
+        background-image: url(../assets/portadaQS.jpg);
+        height: 200px;
+        width: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    } 
+    .img-portadaColab {
+        background-image: url(../assets/portadaColab.jpg);
+        height: 200px;
+        width: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    } 
+        
+}
+@media (min-width: 576px) {
+    #textoajustado {
+        font-size: 25px;
+    }
+    .img-portada {
+        background-image: url(../assets/portada.jpg);
+        height: 250px;
+        width: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }  
+    .img-portadaActv {
+        background-image: url(../assets/portadaActv.jpg);
+        height: 250px;
+        width: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+    .img-portadaProy {
+        background-image: url(../assets/portadaProy.jpg);
+        height: 250px;
+        width: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+    .img-portadaQS {
+        background-image: url(../assets/portadaQS.jpg);
+        height: 250px;
+        width: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+    .img-portadaColab {
+        background-image: url(../assets/portadaColab.jpg);
+        height: 250px;
+        width: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    } 
+            
+    .carousel {
+        max-width: 300px;
+        margin: 0 auto;
+        display: flex;
+        box-shadow: 10px 5px 5px black;
+    }
+    #imagen {
+        width: 100%;
+        height: 150px;
+        background-size: cover;
+    } 
+    
+}
+@media (min-width: 768px) { 
+    #textoajustado {
+        font-size: 28px;
+    }
+    .img-portada {
+        background-image: url(../assets/portada.jpg);
+        height: 300px;
+        width: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    } 
+    .img-portadaActv {
+        background-image: url(../assets/portadaActv.jpg);
+        height: 300px;
+        width: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    } 
+    .img-portadaProy {
+        background-image: url(../assets/portadaProy.jpg);
+        height: 300px;
+        width: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    } 
+    .img-portadaQS {
+        background-image: url(../assets/portadaQS.jpg);
+        height: 300px;
+        width: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    } 
+    .img-portadaColab {
+        background-image: url(../assets/portadaColab.jpg);
+        height: 300px;
+        width: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    } 
+        
+    .carousel {
+        max-width: 500px;
+        margin: 0 auto;
+        display: flex;
+        box-shadow: 10px 5px 5px black;
+    }
+    #imagen {
+        width: 100%;
+        height: 300px;
+        background-size: cover;
+    }
+    
+}
+@media (min-width: 992px) { 
+    #textoajustado {
+        font-size: 33px;
+    }
+    .img-portada {
+        background-image: url(../assets/portada.jpg);
+        height: 350px;
+        width: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }  
+    .img-portadaActv {
+        background-image: url(../assets/portadaActv.jpg);
+        height: 350px;
+        width: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    } 
+    .img-portadaProy {
+        background-image: url(../assets/portadaProy.jpg);
+        height: 350px;
+        width: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+    .img-portadaColab {
+        background-image: url(../assets/portadaColab.jpg);
+        height: 350px;
+        width: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    } 
+
+    .carousel {
+        max-width: 600px;
+        margin: 0 auto;
+        display: flex;
+        box-shadow: 10px 5px 5px black;
+    }
+    #imagen {
+        width: 100%;
+        height: 300px;
+        background-size: cover;
+    }
+     
+      
+}
+@media (min-width: 1200px) {
+    #textoajustado {
+        font-size: 35px;
+    }
+    .img-portada {
+        background-image: url(../assets/portada.jpg);
+        height: 400px;
+        width: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    } 
+    .img-portadaActv {
+        background-image: url(../assets/portadaActv.jpg);
+        height: 400px;
+        width: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    } 
+    .img-portadaProy {
+        background-image: url(../assets/portadaProy.jpg);
+        height: 400px;
+        width: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    } 
+    .img-portadaQS {
+        background-image: url(../assets/portadaQS.jpg);
+        height: 400px;
+        width: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    } 
+    .img-portadaColab {
+        background-image: url(../assets/portadaColab.jpg);
+        height: 400px;
+        width: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }  
+    .carousel {
+        max-width: 800px;
+        margin: 0 auto;
+        display: flex;
+        box-shadow: 10px 5px 5px black;
+    }
+    #imagen {
+        width: 100%;
+        height: 400px;
+        background-size: cover;
+    }
+    
+}
+@media (min-width: 1400px) {
+    #textoajustado {
+        font-size: 38px;
+    }
+    .img-portada {
+        background-image: url(../assets/portada.jpg);
+        height: 550px;
+        width: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }  
+    .img-portadaActv {
+        background-image: url(../assets/portadaActv.jpg);
+        height: 550px;
+        width: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    } 
+    .img-portadaProy {
+        background-image: url(../assets/portadaProy.jpg);
+        height: 550px;
+        width: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    } 
+    .img-portadaQS {
+        background-image: url(../assets/portadaQS.jpg);
+        height: 550px;
+        width: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    } 
+    .img-portadaColab {
+        background-image: url(../assets/portadaColab.jpg);
+        height: 550px;
+        width: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }  
+    .carousel {
+        max-width: 800px;
+        margin: 0 auto;
+        display: flex;
+        box-shadow: 10px 5px 5px black;
+    }
+    #imagen {
+        width: 100%;
+        height: 400px;
+        background-size: cover;
+    }
+   
+}
+@keyframes anim{
+    0% {background-color: rgb(146, 230, 108);} 
+   25% {background-color: rgb(99, 197, 86);} 
+   50% {background-color: white;} 
+   75% {background-color: rgb(21, 221, 171);} 
+  100% {background-color: rgb(7, 97, 13);} 
+}
+#colorfondo{
+  animation-name: anim;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+#zoom {
+    transition: transform .2s; 
+}
+ 
+#zoom:hover {
+    transform: scale(1.25); 
+}
+.carousel {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    box-shadow: 10px 5px 5px black;
+}
+#imagen {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+}
